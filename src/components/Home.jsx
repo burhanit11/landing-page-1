@@ -18,7 +18,7 @@ function Home() {
               </div>
             </a>
             <a href="#" className="flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
-              <img src="/google-play-icon.png" alt="Google Play" className="h-6 mr-2" />
+              <img src="/google.png" alt="Google Play" className="h-6 mr-2" />
               <div>
                 <p className="text-xs text-gray-500">Download on the</p>
                 <p className="text-sm font-semibold text-gray-800">Google Play</p>
