@@ -26,15 +26,14 @@ function Home() {
             </a>
           </div>
             </div>
-            <div className="flex-1 md:w-1/2 p-4 flex justify-center relative">
-          <img src="Vector.png" alt="Vector" className="absolute top-64 left-0 transform scale-75 -translate-x-10 z-0" />
-          <img src="main screen.png" alt="Main" className="relative z-10 transform scale-90" />
-          <img src="home screen.png" alt="Home" className="absolute top-0 right-0 transform scale-100 translate-x-10 z-20" />
+            {/* <div className="flex-1 md:w-1/2 p-4 flex justify-center relative">
+          <img src="home.png" alt="Home" className="absolute top-64 left-0 transform scale-75 -translate-x-10 z-0" />
+          
         </div>
 
             <div>
               
-            </div>
+            </div> */}
         </div>
     </section>
   )
