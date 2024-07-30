@@ -2,13 +2,16 @@ import React from 'react'
 
 function Home() {
   return (
-    <section className="bg-white py-32">
-        <div className="container mx-auto flex flex-col md:flex-row items-center me-40">
-            <div className="flex-1 md:w-1/2 p-1 me-32">
-                <h3 className="text-5xl font-bold text-orange-500 mb-4 leading-2">Discover Sign Language</h3>
-                <h6 className="text-5xl font-bold  text-orange-500 mb-4 "> Fun, Fast, and Easy Learning</h6>
-                <p className="text-gray-600 text-1xl mb-6">Immersive Learning Experience Dive into real-life conversations, personalised learning paths, and engaging flashcards.
+    <section className="bg-white py-20">
+        <div className="container mx-auto flex flex-col md:flex-row items-center">
+            <div className="w-full md:w-1/2 px-4">
+            <div>
+                <h1 className="text-4xl md:text-5xl font-bold text-textColor mb-4 text-wrap">Good health Starts <br/> with What You <span className="text-buttonColor">Eat</span>
+                </h1>
+                
+                <p className="text-textColor  mb-6">Want to eat more mindfully? Track meals, learn about your habits, and reach your goals with FitFuel.
                 </p>
+                </div>
                 <div className="flex space-x-4">
             <a href="#" className="flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
               <img src="/Apple.jfif" alt="Apple" className="h-6 mr-4" />

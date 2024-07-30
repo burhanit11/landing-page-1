@@ -1,28 +1,31 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Header() {
+const Header = () => {
   return (
-    <div>
-      <header className="bg-white p-4 shadow-md">
-        <div className="container mx-auto flex justify-between items-center">
-           <div className="flex iems-center">
-            <img src="/logo.png" alt="ASLingo Logo" className='h-10 mr-2'/>
-            <span className="text-2xl font-bold text-orange-500">
-                ALSingo
-            </span>
-           </div>
-            <nav>
-                <ul className="flex space-x-4">
-                    <li><a href="#home" className="text-gray-600 hover:text-orange-500 ">Home</a></li>
-                    <li><a href="#features" className="text-gray-600 hover:text-orange-500 ">Features</a></li>
-                    <li><a href="#testimonials" className="text-gray-600 hover:text-orange-500 ">Testimonials</a></li>
-                    <li><a href="#contact" className="text-gray-600 hover:text-orange-500 ">Stay in Touch</a></li>
-                </ul>
-            </nav>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded">Get the App</button>
-        </div>
-      </header>
+    <header className="bg-white shadow-md fixed w-full">
+    <div className="container mx-auto p-4 flex justify-between items-center ">
+      <div className= "flex items-center space-x-4">
+        <img src="/Vector.png" alt="ASL" className="h-8" />
+        <span className="text-lg font-bold">
+         FitFuel
+        </span>
+      </div>
+      <nav className="hidden md:flex space-x-6">
+        <Link to="/" className="text-textColor hover:text-gray-800">About Us</Link>
+        <Link to="/" className="text-textColor hover:text-gray-800">Feature</Link>
+        <Link to="/" className="text-textColor hover:text-gray-800">Pricing</Link>
+        <Link to="/" className="text-textColor hover:text-gray-800">FAQ</Link>
+      </nav>
+      <div className="hidden md:block">
+        <button className="bg-buttonColor text-white px-4 py-2 rounded-lg">Get the App</button>
+      </div>
+      <div>
+        <button>button</button>
+      </div>
     </div>
+
+     </header>
   )
 }
 
