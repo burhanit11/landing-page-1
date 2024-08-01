@@ -6,8 +6,8 @@ function Home() {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-textColor mb-4 text-wrap">
-              Good health Starts <br /> with What You{" "}
+            <h1 className="text-4xl md:text-5xl  font-bold text-textColor mb-4 text-wrap">
+              Good health Starts with What You
               <span className="text-buttonColor">Eat</span>
             </h1>
 
